@@ -28,8 +28,7 @@
 距离五百米以内，是基于空间位置（GIS）的查询。
 人均消费 25 元，评价 4.5 分以上，是基于传统标量的查询。
 不用排队，是基于用户对店铺的评价，基于向量的语意检索。
-
-
+https://mp.weixin.qq.com/s/raBPlHxsVbTTIDUJ5pixLw
 
 ## 2.2 为什么需要混合检索
 
@@ -108,19 +107,19 @@ LLM的幻觉是怎么产生的?
 
 # **3 Vespa 是什么**
 
-### **3.1 官方定义（主要是从用途侧定义的）：**
+## **3.1 官方定义（主要是从用途侧定义的）：**
 
 [Vespa.ai](http://vespa.ai/) is an AI Search Platform for developing and operating large-scale applications that combine big data, vector search, machine-learned ranking, and real-time inference. With native tensor support for complex ranking and decisioning, Vespa enables real-time AI applications like RAG, recommendation, and intelligent search—at enterprise scale.
 
-### **3.2 技术侧给Vespa的定义**
+## **3.2 技术侧给Vespa的定义**
 
 一个面向大规模在线应用的检索、排序与推理一体化 serving platform。
 
-#### **3.2.1 一体化**
+### **3.2.1 一体化**
 
 因为 Vespa 不是只做全文检索，也不是只做向量检索，它更希望把结构化过滤、关键词检索、向量召回、多阶段排序，甚至模型推理，尽量放到同一个平台里完成。
 
-#### **3.2.1 serving**
+### **3.2.1 serving**
 
 Vespa 关注的不只是“把数据建好索引、存进去”，而是当一个真实的用户请求到来时，系统如何在很短时间内，从海量数据中筛选候选、完成排序，并返回最合适的结果。
 
